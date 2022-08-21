@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font-family);
+    background-color: #FBECE5;
+    font-weight: 500;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#heading {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 28%;
+    box-shadow: 0 0 5px 5px pink;
+    text-align: center;
+    padding: 0.75em;
+    margin-bottom: 2em;
+}
+
+.brand {
+    font-size: 1.2rem;
+    color: #d6be05;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.price {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1rem;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.description {
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.navbar {
+    background-color: #ECD2C3;
+    margin-bottom: 3em;
+}
+
+.btn {
+    background-color: #EA4C89;
+    font-weight: bold;
+    color: white;
+}
